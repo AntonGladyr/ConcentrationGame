@@ -39,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				B0CDF6DF22B7EFCD004B45B9 /* ConcentrationGame */,
+				B0CDF6E022B7EFCD004B45B9 /* AppDelegate.swift */,
 				B0CDF6DE22B7EFCD004B45B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +55,45 @@
 		B0CDF6DF22B7EFCD004B45B9 /* ConcentrationGame */ = {
 			isa = PBXGroup;
 			children = (
-				B0CDF6E022B7EFCD004B45B9 /* AppDelegate.swift */,
-				B0CDF6E222B7EFCD004B45B9 /* ViewController.swift */,
-				B0CDF6E422B7EFCD004B45B9 /* Main.storyboard */,
-				B0CDF6E722B7EFD1004B45B9 /* Assets.xcassets */,
-				B0CDF6E922B7EFD1004B45B9 /* LaunchScreen.storyboard */,
-				B0CDF6EC22B7EFD1004B45B9 /* Info.plist */,
+				B0CDF6F522B7F476004B45B9 /* Models */,
+				B0CDF6F322B7F07C004B45B9 /* Controllers */,
+				B0CDF6F222B7F05E004B45B9 /* Storyboards */,
+				B0CDF6F422B7F09E004B45B9 /* Supporting files */,
 			);
 			path = ConcentrationGame;
+			sourceTree = "<group>";
+		};
+		B0CDF6F222B7F05E004B45B9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B0CDF6E422B7EFCD004B45B9 /* Main.storyboard */,
+				B0CDF6E922B7EFD1004B45B9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B0CDF6F322B7F07C004B45B9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0CDF6E222B7EFCD004B45B9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0CDF6F422B7F09E004B45B9 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				B0CDF6E722B7EFD1004B45B9 /* Assets.xcassets */,
+				B0CDF6EC22B7EFD1004B45B9 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		B0CDF6F522B7F476004B45B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SBMU8M747;
-				INFOPLIST_FILE = ConcentrationGame/Info.plist;
+				INFOPLIST_FILE = "ConcentrationGame/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SBMU8M747;
-				INFOPLIST_FILE = ConcentrationGame/Info.plist;
+				INFOPLIST_FILE = "ConcentrationGame/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
